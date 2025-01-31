@@ -34,7 +34,7 @@ int xdp_sock_prog(struct xdp_md *ctx)
 	struct xdp_meta *meta= {0};
 	bpf_xdp_adjust_meta(ctx, -(int)sizeof(struct xdp_meta));
 
-    index = ctx->rx_queue_index;
+    	index = ctx->rx_queue_index;
 	void *data = (void *)(long)ctx->data;
 	void *data_end = (void *)(long)ctx->data_end;
 	void *data_meta = (void *)(long)ctx->data_meta;
