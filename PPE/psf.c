@@ -403,7 +403,6 @@ static void *wifi_to_eth(void *args)
 		} while(!send_flag && !global_exit);
 
 		if (global_exit){
-            printf("TOTAL IN TX FOR W2E %d\n", stat_tot_received_in_TX);
 			continue;
 		}
 
@@ -653,7 +652,6 @@ static void *eth_to_wifi(void *args)
 		} while(!send_flag && !global_exit);
 
 		if (global_exit){
-            printf("TOTAL IN TX FOR W2E %d\n", stat_tot_received_in_TX);
 			continue;
 		}
 
