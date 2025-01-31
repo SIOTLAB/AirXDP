@@ -45,7 +45,7 @@ The **PPE** folder of this repository contains the following main components of 
     sudo ./psf -n -s 512000 -t 1536000 -e enp10s0f0np0 -w wls1 -f xdp_redirect_program.o.
     ```
     The options above indicate the following
-    - n: Use native attach mode use -g for generic attach mode.
+    - n: Use native attach mode use. The -g option is instead used for generic attach mode.
     - s: The sleep duration in every interaton of the SL stage in &micro;s.
     - t: The maximum timeout value to be used if batch size number of packets are not received in &micro;s.
     - e: The Ethernet interface that will be used for packet switching.
