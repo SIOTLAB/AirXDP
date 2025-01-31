@@ -29,15 +29,11 @@ The **PPE** folder of this repository contains the following main components of 
 3. Navigate to the folder where the submodules are located and run make:
     ```sh
     cd AirXDP/lib
-    ```
-    ```sh
     make
     ```
 4. Navigate to the PPE folder and run make:
     ```sh
     cd AirXDP/PPE
-    ```
-    ```sh
     make
     ```
 5. Execute the PSF using the following command:
