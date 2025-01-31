@@ -46,7 +46,7 @@ The **PPE** folder of this repository contains the following main components of 
     - t: The maximum timeout value to be used if batch size number of packets are not received in &micro;s.
     - e: The Ethernet interface that will be used for packet switching.
     - w: The WiFi interface that will be used for packet switching.
-    - f: The object file of the XDP Rdirect Program 
+    - f: The object file of the XDP Rdirect Program.
     
     
 ## Contacts
