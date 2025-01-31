@@ -14,7 +14,7 @@ The implementation aims to provide an efficient and high-performance approach fo
 The **PPE** folder of this repository contains the following main components of AirXDP:
 
 - **PSF**: The primary user-space application that creates the UMEM and XDP sockets for packet switching tasks. 
-- **XDP Redirect Program: The primary kernel space application that transfers packets recieved in the NIC to the PSF.
+- **XDP Redirect Program**: The primary kernel space application that transfers packets recieved in the NIC to the PSF.
 
 ### Steps
 
