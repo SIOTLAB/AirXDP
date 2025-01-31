@@ -50,7 +50,7 @@ struct option lgopts[] = {
 #define EXIT_OK 		 0
 #define EXIT_FAIL_OPTION	 2
 
-#define NUM_DESC 			131072
+#define NUM_DESC 			4096
 
 #define NUM_FRAMES         NUM_DESC // Total number of frames in UMEM
 #define FRAME_SIZE         XSK_UMEM__DEFAULT_FRAME_SIZE //Size of each frame in UMEM
