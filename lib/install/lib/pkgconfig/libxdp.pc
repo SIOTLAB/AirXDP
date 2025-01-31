@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: (LGPL-2.1 OR BSD-2-Clause)
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=${prefix}/include
+
+Name: libxdp
+Description: XDP library
+Version: 1.4.0
+Libs: -L${libdir} -lxdp
+Requires.private: libbpf
+Cflags: -I${includedir}
