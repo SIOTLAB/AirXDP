@@ -6,7 +6,7 @@ Mridul Gupta and Sujith Polpaya (Ph.D. students) under the guidance of Professor
 
 ## Overview
 
-The AirXDP application provides a framework for packet processing in the user-space fro WiFi Acces Points with the help of XDP Sockets.
+The AirXDP application provides a framework for packet processing in the user-space for WiFi Acces Points with the help of XDP Sockets.
 The implementation aims to provide an efficient and high-performance approach for packet switching from a WiFi interface to an Ethernet interface and vice-versa.
 
 ## Features
