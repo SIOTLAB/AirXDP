@@ -43,7 +43,7 @@ The **PPE** folder of this repository contains the following main components of 
 5. Execute the PSF using the following command:
     ```sh
     sudo ./psf -n -s 512000 -t 1536000 -e enp10s0f0np0 -w wls1 -f xdp_redirect_program.o.
-
+    ```
     The options above indicate the following
     - n: Use native attach mode use -g for generic attach mode.
     - s: The sleep duration in every interaton of the SL stage in &micro;s.
@@ -51,7 +51,7 @@ The **PPE** folder of this repository contains the following main components of 
     - e: The Ethernet interface that will be used for packet switching.
     - w: The WiFi interface that will be used for packet switching.
     - f: The object file of the XDP Rdirect Program 
-    ```
+    
     
 ## Contacts
 Mridul Gupta  magupt@scu.edu
